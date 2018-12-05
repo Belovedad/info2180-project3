@@ -1,0 +1,56 @@
+// JavaScript File
+html{
+	font-family:'Times New Roman';
+	font-size: 1.1em;
+}
+tr:nth-child(even){
+	background-color: #dfe1e7;
+}
+
+tr:nth-child(odd){
+	background-color: #eeeff2;
+}
+tr:nth-child(9){
+	background-color: #dfe1e7;
+}
+tr:nth-child(10){
+	display:none;
+}
+th {
+	background-color: #687291;
+	border-bottom: 1px solid #fff;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	color: #fff;
+}
+td {
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+	padding:2px 15px 2px 15px;
+	}
+td:nth-child(4):hover{
+	background-color: #cc6600;
+}
+td:nth-child(7){
+	text-align:center;
+}
+	
+tr{
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+	border-left: none;
+	border-right: none;
+	
+}
+table{
+	border-left: none;
+	border-right: none;
+	border-spacing:0;
+	border-collapse:collapse;
+	table-layout:fixed;
+	height:auto;
+	width:auto;
+}
